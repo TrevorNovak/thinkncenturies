@@ -33,5 +33,8 @@ class Post(models.Model):
         blank=False,
     )
     created_on = models.DateTimeField(
-        default=timezone.now(),
+        default=timezone.now,
     )
+
+    def __str__(self):
+        return self.title
