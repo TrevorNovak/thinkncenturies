@@ -1,11 +1,54 @@
-<strong>Title:</strong>
-    {{ post.title }}
-</br></br>
+<!-- /*<style>
 
-<strong>Author:</strong>
-  {{ post.author }}
-</br></br>
+.body {
+    background-color: slategrey;
+}
 
-<strong>Body:</strong>
-  {{ post.body }}
-  </br></br>
+.container {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.header {
+    background-color: skyblue;
+    height: 50px;
+    font-family: helvetica, verdana, trebuchet;
+    font-size: 20;
+}
+
+.subheader {
+    background-color: darkblue;
+}
+
+
+</style>*/ -->
+
+<body class="body">
+
+<div class="header" align="center">
+    Semicolon
+</div>
+
+<div class="subheader">
+</br>
+</div>
+
+<div class="container">
+    <strong>Title:</strong>
+        {{ post.title }}
+    </br></br>
+
+    <strong>Author:</strong>
+      {{ post.author }}
+    </br></br>
+
+    <strong>Genre:</strong>
+      {{ post.genre }}
+    </br></br>
+
+    <strong>Body:</strong>
+      {{ post.body }}
+      </br></br>
+
+</div>
+</body>

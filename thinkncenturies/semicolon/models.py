@@ -10,7 +10,7 @@ class Post(models.Model):
 
     GENRE_CHOICES = (
         (FICTION , 'Fiction'),
-        (NONFICTION , 'Noniction'),
+        (NONFICTION , 'Nonfiction'),
         (POETRY , 'Poetry'),
         (ESSAY , 'Essay'),
     )
