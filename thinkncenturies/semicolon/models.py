@@ -3,10 +3,10 @@ from django.db import models
 
 
 class Post(models.Model):
-    FICTION = 'fiction'
-    NONFICTION = 'nonfiction'
-    POETRY = 'poetry'
-    ESSAY = 'essay'
+    FICTION = 'FICTION'
+    NONFICTION = 'NONFICTION'
+    POETRY = 'POETRY'
+    ESSAY = 'ESSAY'
 
     GENRE_CHOICES = (
         (FICTION , 'Fiction'),
